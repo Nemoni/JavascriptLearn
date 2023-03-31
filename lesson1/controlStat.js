@@ -24,6 +24,15 @@ function control() {
     // 逻辑非 !,先转成boolean，再取反值,结果是Boolean类型
     console.log(!"3"); // false，先转成boolean，再取反值
     console.log(!!"3"); // true，转成boolean类型，作用与Boolean()相同
+    // ??空值合并运算符
+    let firstname;
+    let lastname;
+    console.log(firstname ?? lastname ?? "default"); // default，返回第一个“已定义”的值，“已定义”表示既不是null也不是undefined
+    let a;
+    let b = 'xxx';
+    console.log(a ?? b);  // ‘xxx’，等价于下面这个式子
+    console.log((a != null && a != undefined) ? a : b); 
+    console.log((firstname || lastname) ?? a); //undefined(a),不能在没有括号的情况下将??同&&和||混用
 }
 
 export{
