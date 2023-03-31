@@ -1,3 +1,3 @@
-import { displayHello } from "./lesson1/show.js";
+import { displayVar } from "./lesson1/variations.js";
 
-displayHello();
+displayVar();
