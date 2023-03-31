@@ -33,6 +33,35 @@ function control() {
     console.log(a ?? b);  // ‘xxx’，等价于下面这个式子
     console.log((a != null && a != undefined) ? a : b); 
     console.log((firstname || lastname) ?? a); //undefined(a),不能在没有括号的情况下将??同&&和||混用
+    /* while */
+    console.log("while:");
+    let x = 0;
+    while(x < 4){
+        if (x == 3){
+            break; // break和continue不允许出现在问号表达中的？右边
+        }
+        console.log("x is " + x);
+        x++;
+    }
+    let y = 0;
+    do{
+        y++;
+    }while(y < 3);
+    /* for */
+    console.log("for:");
+    outer: for(let i=0; i<4; i++){
+        for(let j=0; j<4; j++){
+            if(j == 2){
+                continue outer; // 从outer标签处那个循环的下一个循环继续
+            }
+            if(i == 3){
+                break outer; // 从outer标签处跳出
+            }
+            console.log("i is " + i);
+            console.log("j is " + j);  
+        }
+    }
+
 }
 
 export{
