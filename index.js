@@ -1,3 +1,3 @@
-import { operations } from "./lesson1/operation.js";
+import { compare } from "./lesson1/compare.js";
 
-operations();
+compare();
