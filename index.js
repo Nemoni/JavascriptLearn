@@ -1,3 +1,3 @@
-import { dataConvert } from "./lesson1/dataConvert.js";
+import { operations } from "./lesson1/operation.js";
 
-dataConvert();
+operations();
