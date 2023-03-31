@@ -1,3 +1,3 @@
-import { compare } from "./lesson1/compare.js";
+import { control } from "./lesson1/controlStat.js";
 
-compare();
+control();
