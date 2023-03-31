@@ -61,7 +61,23 @@ function control() {
             console.log("j is " + j);  
         }
     }
-
+    /* switch */
+    let str1 = 'Ne';
+    let str2 = 'mo';
+    console.log("switch: ");
+    switch(str1 + str2){ // 判断是否相等是指“严格相等”即“===”
+        case str1 + 'si':
+            console.log("Nesi");
+            break;
+        case str1 + 'li':
+            console.log("Neli");
+            break;
+        case 'Nemo':
+            console.log("Nemo");
+            break;
+        default:
+            console.log("nothing");
+    }
 }
 
 export{
