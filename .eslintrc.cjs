@@ -15,8 +15,10 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "mocha"
     ],
     "rules": {
+        "mocha/no-exclusive-tests": "error"
     }
 }

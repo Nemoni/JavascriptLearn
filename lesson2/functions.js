@@ -60,4 +60,8 @@ function funStat() {
   console.log("funSatat");
 }
 
-export { outer };
+function add(x, y) {
+  return x + y;
+}
+
+export { outer, add };
