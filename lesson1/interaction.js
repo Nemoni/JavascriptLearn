@@ -32,17 +32,17 @@ async function prompt(question, defaultValue) {
 
 // 定义一个异步函数，询问用户是否为老板
 async function confirm(message) {
-    const { isSure } = await inquirer.prompt([
-      {
-        type: 'confirm',
-        name: 'isSure',
-        message
-      }
-    ]);
-    return isSure;
+  const { isSure } = await inquirer.prompt([
+    {
+      type: 'confirm',
+      name: 'isSure',
+      message
+    }
+  ]);
+  return isSure;
 }
 
 export {
-    prompt,
-    confirm,
+  prompt,
+  confirm,
 }

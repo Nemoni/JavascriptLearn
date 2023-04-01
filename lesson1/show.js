@@ -1,7 +1,5 @@
 function displayHello() {
-    console.log("hello world");
+  console.log("hello world");
 }
 
-export {
-    displayHello,
-}
+export { displayHello };
