@@ -1,3 +1,3 @@
-import { control } from "./lesson1/controlStat.js";
+import { outer } from "./lesson2/functions.js";
 
-control();
+outer();
