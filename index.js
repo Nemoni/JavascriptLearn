@@ -1,3 +1,3 @@
-import { symbolType } from "./lesson2/symbolType.js";
+import { numberType } from "./lesson3/numberType.js";
 
-symbolType();
+numberType();
