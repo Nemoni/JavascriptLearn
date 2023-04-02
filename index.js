@@ -1,3 +1,3 @@
-import { constructor } from "./lesson2/constructor.js";
+import { symbolType } from "./lesson2/symbolType.js";
 
-constructor();
+symbolType();
