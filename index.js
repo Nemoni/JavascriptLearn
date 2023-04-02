@@ -1,3 +1,3 @@
-import { objectCopy } from "./lesson2/objectCopy.js";
+import { objectThis } from "./lesson2/objectThis.js";
 
-objectCopy();
+objectThis();
