@@ -1,3 +1,3 @@
-import { classMain } from "./lesson2/classes.js";
+import { objectCopy } from "./lesson2/objectCopy.js";
 
-classMain();
+objectCopy();
