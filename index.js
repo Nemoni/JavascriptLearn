@@ -1,3 +1,3 @@
-import { arrayType } from "./lesson3/arrayType.js";
+import { dateFunc } from "./lesson3/dateFunc.js";
 
-arrayType();
+dateFunc();
